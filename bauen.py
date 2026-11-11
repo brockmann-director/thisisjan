@@ -23,6 +23,8 @@ seite = json.loads((HIER / "inhalt" / "seite.json").read_text(encoding="utf-8"))
 projekte = json.loads((HIER / "inhalt" / "projekte.json").read_text(encoding="utf-8"))
 
 e = html.escape
+import hashlib
+VERSION = hashlib.md5((HIER / "vorlage" / "stil.css").read_bytes()).hexdigest()[:8]  # neue Version = Browser lädt neu
 
 
 def link(ziel, tiefe):
@@ -58,7 +60,7 @@ def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
 <meta property="og:title" content="{e(titel)}">
 {og}
 <link rel="preload" href="{css.replace('stil.css', 'schrift/bagel-fat-one.woff2')}" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{css}">
+<link rel="stylesheet" href="{css}?v={VERSION}">
 </head>
 <body>
 <header class="kopf">
