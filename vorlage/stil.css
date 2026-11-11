@@ -50,7 +50,7 @@ b, strong { font-weight: 700; }
 .kopf {
   position: sticky; top: 0; z-index: 20; background: var(--nacht);
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
-  padding: 10px var(--rand);
+  padding: 6px var(--rand) 2px;
 }
 /* Bagel ist breit: schmaler gezogen, damit es wie die alte, schmale Schrift wirkt */
 .eng { display: inline-block; transform: scaleX(var(--eng, .8)); transform-origin: left center; }
@@ -93,12 +93,12 @@ main { padding: 0 var(--rand); }
 /* nahtlos: Computer 3 nebeneinander, Tablet 2, Handy 1 */
 .raster {
   display: grid; gap: 0; grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin: 6px 0 0; padding: 0; list-style: none;
+  margin: 0; padding: 0; list-style: none;
 }
 @media (max-width: 1000px) { .raster { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 700px) { .raster { grid-template-columns: 1fr; margin-inline: calc(var(--rand) * -1); } }
 
-.kachel a { position: relative; display: block; aspect-ratio: 5 / 4; overflow: hidden; background: #111; }
+.kachel a { position: relative; display: block; aspect-ratio: 5 / 4; overflow: hidden; background: #111; border-radius: var(--rundung) var(--rundung) 0 0; }
 .kachel img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; transition: transform .7s ease, filter .3s; }
 .kachel .titel .eng { transform-origin: center; }
 .kachel .titel {
