@@ -14,4 +14,4 @@ Die Seite baut sich bei jeder Änderung auf `main` automatisch (GitHub Actions) 
 **Lokal ansehen:** `python3 bauen.py --lokal`, dann `public/index.html` öffnen.
 
 Videos laden erst nach Klick (youtube-nocookie), deshalb gibt es keine Cookies und keinen Cookie-Banner.
-Schriften: Modak (Name, Menü, Kacheln) und DM Sans (Text), beide SIL Open Font License, liegen in `schrift/`.
+Schriften: Modak (Name, Menü, Kacheln) DM Sans (Text) und Space Grotesk (grüner Satz), beide SIL Open Font License, liegen in `schrift/`.
