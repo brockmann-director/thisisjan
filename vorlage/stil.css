@@ -41,9 +41,10 @@ a { color: inherit; text-decoration: none; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--gruen); outline-offset: 3px; }
 img { display: block; max-width: 100%; }
 b, strong { font-weight: 500; }
-/* Runde Schrift nur für Name, Menü, Kacheln und Überschriften (hat nur eine Stärke, daher 400).
-   Projektseiten bleiben schlicht in DM Sans (dünn, weiß, klein geschrieben). */
-.name, .menue, .kachel .titel, .kontakt, .recht h1, .recht h2 {
+/* Modak nur für Name, Menü, Kacheltitel und den grünen Satz (eine Stärke, daher 400).
+   Alles andere (Projektseiten, about, Impressum) in DM Sans dünn. */
+
+.name, .menue, .kachel .titel {
   font-family: var(--schrift); font-weight: 400;
 }
 
@@ -160,10 +161,10 @@ main { padding: 0 var(--rand); }
 /* Textseiten */
 .text { max-width: 900px; margin: clamp(40px, 14vh, 200px) auto 0; text-align: center; }
 .text .gross p { font-size: clamp(19px, 1.6vw, 23px); line-height: 1.4; margin: 0 0 .8em; }
-.text .kontakt { color: var(--gruen); font-size: 22px; margin-top: 2.5em; line-height: 1.3; }
+.text .kontakt { font-size: 20px; margin-top: 2.5em; line-height: 1.3; }
 .recht { max-width: 720px; margin: 40px auto 0; font-size: 16px; }
-.recht h1 { font-size: 34px; margin: 0 0 .6em; }
-.recht h2 { font-size: 20px; margin: 1.6em 0 .3em; color: var(--gruen); }
+.recht h1 { font-size: 28px; font-weight: 300; margin: 0 0 .6em; }
+.recht h2 { font-size: 18px; font-weight: 500; margin: 1.6em 0 .3em; }
 .recht p { margin: 0 0 .8em; line-height: 1.35; }
 .recht a { text-decoration: underline; }
 
