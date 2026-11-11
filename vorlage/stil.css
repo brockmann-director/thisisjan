@@ -52,13 +52,17 @@ b, strong { font-weight: 700; }
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
   padding: 10px var(--rand);
 }
+/* Bagel ist breit: schmaler gezogen, damit es wie die alte, schmale Schrift wirkt */
+.eng { display: inline-block; transform: scaleX(var(--eng, .8)); transform-origin: left center; }
 .name {
   order: 2; color: var(--gruen); text-transform: uppercase;
-  font-size: clamp(26px, 2.6vw, 40px); line-height: 1; letter-spacing: 0;
+  font-size: clamp(34px, 3.4vw, 54px); line-height: 1; margin-right: -.4em;
 }
-.menue { order: 1; display: flex; gap: 24px; font-size: 22px; }
-.menue a { transition: color .15s; }
-.menue a:hover, .menue a[aria-current="page"] { color: var(--gruen); }
+.name .eng { transform-origin: right center; }
+.menue { order: 1; display: flex; gap: 2px; font-size: 18px; }
+.menue a { color: var(--weiss); transition: color .15s; margin-right: -.35em; }
+.menue a + a { margin-left: .7em; }
+.menue a:hover { color: var(--gruen); }
 .menueknopf { display: none; }
 
 @media (max-width: 700px) {
@@ -70,6 +74,10 @@ b, strong { font-weight: 700; }
   .menue {
     position: fixed; inset: 0; z-index: 30; background: var(--nacht);
     flex-direction: column; align-items: center; justify-content: center; gap: 40px; font-size: 44px;
+  }
+  .menue a, .menue a + a { margin: 0; }
+  .menue a .eng { transform-origin: center; }
+  .menue {
     opacity: 0; pointer-events: none; transition: opacity .2s;
   }
   .offen .menue { opacity: 1; pointer-events: auto; }
@@ -82,19 +90,21 @@ b, strong { font-weight: 700; }
 main { padding: 0 var(--rand); }
 
 /* Startseite: große Bilder, Titel erscheint grün in der Mitte */
+/* nahtlos: Computer 3 nebeneinander, Tablet 2, Handy 1 */
 .raster {
-  display: grid; gap: var(--abstand);
-  /* passt sich an: großer Bildschirm 3 bis 4, Tablet 2, Handy 1 */
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr));
-  margin: var(--abstand) 0 0; padding: 0; list-style: none;
+  display: grid; gap: 0; grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 6px 0 0; padding: 0; list-style: none;
 }
-@media (max-width: 700px) { .raster { grid-template-columns: 1fr; gap: 0; margin-inline: calc(var(--rand) * -1); } }
+@media (max-width: 1000px) { .raster { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 700px) { .raster { grid-template-columns: 1fr; margin-inline: calc(var(--rand) * -1); } }
 
-.kachel a { position: relative; display: block; aspect-ratio: 5 / 4; overflow: hidden; border-radius: var(--rundung) var(--rundung) 0 0; background: #111; }
-.kachel img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s ease, filter .3s; }
+.kachel a { position: relative; display: block; aspect-ratio: 5 / 4; overflow: hidden; background: #111; }
+.kachel img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; transition: transform .7s ease, filter .3s; }
+.kachel .titel .eng { transform-origin: center; }
 .kachel .titel {
-  position: absolute; inset: 0; display: grid; place-items: center; padding: 16px; text-align: center;
-  color: var(--gruen); font-size: clamp(24px, 2vw, 34px); line-height: 1.05;
+  position: absolute; inset: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  gap: 0 1.4em; padding: 16px; text-align: center;
+  color: var(--gruen); font-size: clamp(22px, 1.9vw, 32px); line-height: 1.05;
   opacity: 0; transition: opacity .25s; text-shadow: 0 2px 18px rgba(0,0,0,.35);
 }
 .kachel a:hover img, .kachel.mitte img { transform: scale(1.03); filter: brightness(.85); }

@@ -46,7 +46,7 @@ def bild(p, tiefe):
 def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
     css = "../" * tiefe + "stil.css"
     menue = "".join(
-        f'<a href="{link(z, tiefe)}"{" aria-current=\"page\"" if aktiv == z else ""}>{n}</a>'
+        f'<a href="{link(z, tiefe)}"{" aria-current=\"page\"" if aktiv == z else ""}><span class="eng">{n}</span></a>'
         for z, n in (("", "work"), ("about", "about"))
     )
     og = f'<meta property="og:image" content="{e(og_bild)}">' if og_bild else ""
@@ -64,7 +64,7 @@ def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
 </head>
 <body>
 <header class="kopf">
-  <a class="name" href="{link('', tiefe)}">{e(seite['name'])}</a>
+  <a class="name" href="{link('', tiefe)}"><span class="eng">{e(seite['name'])}</span></a>
   <button class="menueknopf" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
   <nav class="menue">{menue}</nav>
 </header>
@@ -128,7 +128,7 @@ def startseite(tiefe=0):
     kacheln = "\n".join(
         f"""<li class="kachel"><a href="{link(p['slug'], tiefe)}">
   <img src="{e(bild(p, tiefe))}" alt="{e(p['ueberschrift'])}" loading="{'eager' if i < 4 else 'lazy'}">
-  <span class="titel"><span>{kachel_titel(p)}</span></span>
+  <span class="titel">{''.join(f'<span class="eng">{e(x)}</span>' for x in (p['titel'], p['kunde']) if x)}</span>
 </a></li>"""
         for i, p in enumerate(projekte)
     )
