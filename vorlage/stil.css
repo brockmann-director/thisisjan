@@ -117,6 +117,13 @@ main { padding: 0 var(--rand); }
 .stills img.breit { grid-column: 1 / -1; aspect-ratio: auto; margin-block: calc(var(--abstand) * 3); }
 @media (max-width: 560px) { .stills { grid-template-columns: 1fr; } }
 
+.platz {
+  display: grid; place-items: center; aspect-ratio: 2.39 / 1; background: #151515; color: #444;
+  font-weight: 800; font-size: 18px; outline: 1px solid var(--nacht); text-transform: uppercase; letter-spacing: .08em;
+}
+.stills .platz.breit { grid-column: 1 / -1; aspect-ratio: 16 / 9; margin-block: calc(var(--abstand) * 3); }
+.making .platz { aspect-ratio: auto; height: clamp(150px, 20vw, 280px); flex-grow: 1; max-width: 100%; }
+
 /* Making-of: Fotos in Reihen, die sich der Breite anpassen */
 .making { display: flex; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; }
 .making img { height: clamp(150px, 20vw, 280px); flex-grow: 1; object-fit: cover; }

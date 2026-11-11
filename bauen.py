@@ -158,8 +158,12 @@ def projektseite(i, p):
     stills = "".join(
         f'<img src="{e(bildpfad(x))}" alt="" loading="lazy"{" class=\"breit\"" if x in p.get("breit", []) else ""}>'
         for x in p.get("stills", []))
+    if not stills and seite.get("platzhalter"):
+        stills = '<div class="platz">Still</div>' * 4 + '<div class="platz breit">Still breit</div>'
     stills = f'<div class="stills">{stills}</div>' if stills else ""
     making = "".join(f'<img src="{e(bildpfad(x))}" alt="" loading="lazy">' for x in p.get("making", []))
+    if not making and seite.get("platzhalter"):
+        making = "".join(f'<div class="platz" style="width:{w}px">Making-of</div>' for w in (420, 260, 360, 300, 380, 240, 330))
     making = f'<div class="making">{making}</div>' if making else ""
     zitat = f'<p class="zitat">{e(p["text"])}</p>' if p.get("text") else ""
     vor = projekte[i - 1] if i > 0 else None
