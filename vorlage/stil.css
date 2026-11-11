@@ -1,0 +1,149 @@
+/* thisisjan.com – schwarz, neongrün, schmale fette Schrift.
+   Farben und Schrift nur hier ändern. */
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("schrift/big-shoulders-display.woff2") format("woff2");
+  font-weight: 400 900;
+  font-display: swap;
+}
+:root {
+  --nacht: #000000;
+  --weiss: #ffffff;
+  --gruen: #79fb71;
+  --lila: #c21ff0;
+  --grau: #9a9a9a;
+  --schrift: "Big Shoulders Display", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --rand: clamp(16px, 4.5vw, 48px);
+  --abstand: clamp(12px, 1.6vw, 24px);
+  --rundung: clamp(10px, 1.4vw, 18px);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--nacht);
+  color: var(--weiss);
+  font-family: var(--schrift);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--lila); color: var(--weiss); }
+a { color: inherit; text-decoration: none; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gruen); outline-offset: 3px; }
+img { display: block; max-width: 100%; }
+b, strong { font-weight: 800; }
+
+/* Kopf: Menü links, Name rechts (am Handy: Name links, Menü-Knopf rechts) */
+.kopf {
+  position: sticky; top: 0; z-index: 20; background: var(--nacht);
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  padding: 10px var(--rand);
+}
+.name {
+  order: 2; color: var(--gruen); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(34px, 3.6vw, 56px); line-height: .9; letter-spacing: -.01em;
+}
+.menue { order: 1; display: flex; gap: 22px; font-weight: 900; font-size: 26px; }
+.menue a { transition: color .15s; }
+.menue a:hover, .menue a[aria-current="page"] { color: var(--gruen); }
+.menueknopf { display: none; }
+
+@media (max-width: 700px) {
+  .name { order: 1; }
+  .menueknopf {
+    order: 2; display: grid; gap: 7px; width: 40px; padding: 8px 0; background: none; border: 0; cursor: pointer;
+  }
+  .menueknopf span { display: block; height: 3px; background: var(--weiss); border-radius: 2px; transition: transform .2s, opacity .2s; }
+  .menue {
+    position: fixed; inset: 0; z-index: 30; background: var(--nacht);
+    flex-direction: column; align-items: center; justify-content: center; gap: 40px; font-size: 44px;
+    opacity: 0; pointer-events: none; transition: opacity .2s;
+  }
+  .offen .menue { opacity: 1; pointer-events: auto; }
+  .offen .menueknopf { position: relative; z-index: 31; }
+  .offen .menueknopf span:nth-child(1) { transform: translateY(10px) rotate(45deg); }
+  .offen .menueknopf span:nth-child(2) { opacity: 0; }
+  .offen .menueknopf span:nth-child(3) { transform: translateY(-10px) rotate(-45deg); }
+}
+
+main { padding: 0 var(--rand); }
+
+/* Startseite: große Bilder, Titel erscheint grün in der Mitte */
+.raster {
+  display: grid; gap: var(--abstand);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: var(--abstand) 0 0; padding: 0; list-style: none;
+}
+@media (max-width: 700px) { .raster { grid-template-columns: 1fr; gap: 0; margin-inline: calc(var(--rand) * -1); } }
+
+.kachel a { position: relative; display: block; aspect-ratio: 5 / 4; overflow: hidden; border-radius: var(--rundung) var(--rundung) 0 0; background: #111; }
+.kachel img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s ease, filter .3s; }
+.kachel .titel {
+  position: absolute; inset: 0; display: grid; place-items: center; padding: 16px; text-align: center;
+  color: var(--gruen); font-weight: 900; font-size: clamp(30px, 3.4vw, 54px); line-height: .95;
+  opacity: 0; transition: opacity .25s; text-shadow: 0 2px 18px rgba(0,0,0,.35);
+}
+.kachel a:hover img, .kachel.mitte img { transform: scale(1.03); filter: brightness(.85); }
+.kachel a:hover .titel, .kachel a:focus-visible .titel, .kachel.mitte .titel { opacity: 1; }
+.kunde { text-transform: uppercase; }
+
+/* Projektseite */
+.projekt { max-width: 1240px; margin: 0 auto; }
+.video { position: relative; aspect-ratio: 16 / 9; background: #111; margin: var(--abstand) auto; max-width: 1200px; overflow: hidden; }
+.video button { all: unset; cursor: pointer; position: absolute; inset: 0; display: grid; place-items: center; }
+.video button img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.video .play {
+  position: relative; width: 84px; height: 84px; border-radius: 50%; background: var(--gruen);
+  display: grid; place-items: center; transition: transform .2s;
+}
+.video button:hover .play { transform: scale(1.08); }
+.video .play::after { content: ""; margin-left: 6px; border-left: 24px solid var(--nacht); border-top: 15px solid transparent; border-bottom: 15px solid transparent; }
+.video .hinweis { position: absolute; left: 14px; bottom: 10px; font-size: 14px; opacity: .8; text-shadow: 0 1px 3px rgba(0,0,0,.7); }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.angaben { text-align: center; margin: calc(var(--abstand) * 2.5) auto; max-width: 900px; font-size: clamp(20px, 1.7vw, 26px); }
+.angaben h1 { font-size: inherit; font-weight: 400; margin: 0 0 .6em; }
+.angaben h1 b { font-weight: 900; }
+.credits { list-style: none; margin: 0; padding: 0; display: grid; gap: .25em; }
+.credits b { font-weight: 900; }
+.zitat { color: var(--gruen); font-weight: 900; margin: .7em 0 0; }
+
+.stills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 1060px; margin: 0 auto calc(var(--abstand) * 3); }
+.stills img { width: 100%; aspect-ratio: 2.39 / 1; object-fit: cover; }
+.stills img.breit { grid-column: 1 / -1; aspect-ratio: auto; margin-block: calc(var(--abstand) * 3); }
+@media (max-width: 560px) { .stills { grid-template-columns: 1fr; } }
+
+/* Making-of: Fotos in Reihen, die sich der Breite anpassen */
+.making { display: flex; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; }
+.making img { height: clamp(150px, 20vw, 280px); flex-grow: 1; object-fit: cover; }
+.making::after { content: ""; flex-grow: 999; }
+
+.blaettern {
+  display: flex; justify-content: space-between; gap: 16px; margin-top: calc(var(--rand) * 1.5);
+  font-weight: 900; font-size: 22px;
+}
+.blaettern a:hover { color: var(--gruen); }
+
+/* Textseiten */
+.text { max-width: 900px; margin: clamp(40px, 14vh, 200px) auto 0; text-align: center; }
+.text .gross p { font-size: clamp(22px, 1.9vw, 28px); line-height: 1.2; margin: 0 0 .8em; }
+.text .kontakt { color: var(--gruen); font-weight: 900; font-size: 24px; margin-top: 2.5em; }
+.recht { max-width: 720px; margin: 40px auto 0; font-size: 18px; }
+.recht h1 { font-size: 36px; font-weight: 900; margin: 0 0 .6em; }
+.recht h2 { font-size: 22px; font-weight: 900; margin: 1.6em 0 .3em; color: var(--gruen); }
+.recht p { margin: 0 0 .8em; line-height: 1.35; }
+.recht a { text-decoration: underline; }
+
+/* Fuß */
+.fuss { display: grid; justify-items: center; gap: 18px; padding: calc(var(--rand) * 2.5) var(--rand) var(--rand); }
+.symbole { display: flex; gap: 26px; }
+.symbole svg { width: 26px; height: 26px; fill: var(--weiss); transition: fill .15s; }
+.symbole a:hover svg { fill: var(--gruen); }
+.fuss small { color: var(--gruen); font-weight: 800; font-size: 16px; }
+.fuss small a:hover { text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

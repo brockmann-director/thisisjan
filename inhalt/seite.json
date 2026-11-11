@@ -1,0 +1,19 @@
+{
+  "name": "JAN BROCKMANN",
+  "domain": "https://thisisjan.com",
+  "beschreibung": "Director for commercials, fiction & documentary. Hamburg-based filmmaker.",
+  "about": [
+    "Jan Brockmann is a Hamburg-based director working across commercials, fiction and documentary formats.",
+    "HIER DEN REST DEINES ABOUT-TEXTES EINFÜGEN (Absätze einfach als weitere Zeilen in Anführungszeichen)."
+  ],
+  "about_bild": "",
+  "email": "hello@thisisjan.com",
+  "telefon": "+49 170 79 38 119",
+  "instagram": "https://www.instagram.com/juanbrockmann/",
+  "impressum": {
+    "name": "Jan Brockmann",
+    "strasse": "Julius-Vosseler-Str. 114b",
+    "ort": "22527 Hamburg",
+    "beruf": "Freiberuflicher Regisseur, freiberuflich tätig gemäß § 18 EStG, Mitglied der Künstlersozialkasse (KSK)"
+  }
+}
