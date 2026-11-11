@@ -30,19 +30,19 @@ def link(ziel, tiefe):
     hoch = "../" * tiefe
     if LOKAL:
         return f"{hoch}{ziel + '/' if ziel else ''}index.html"
-    return "/" + (ziel + "/" if ziel else "")
+    return hoch + (ziel + "/" if ziel else "") if (hoch or ziel) else "./"
 
 
 def bild(p, tiefe):
     for endung in ("jpg", "jpeg", "png", "webp"):
         datei = HIER / "bilder" / f"{p['slug']}.{endung}"
         if datei.exists():
-            return ("../" * tiefe if LOKAL else "/") + f"bilder/{datei.name}"
+            return "../" * tiefe + f"bilder/{datei.name}"
     return p["bild"]
 
 
 def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
-    css = ("../" * tiefe + "stil.css") if LOKAL else "/stil.css"
+    css = "../" * tiefe + "stil.css"
     menue = "".join(
         f'<a href="{link(z, tiefe)}"{" aria-current=\"page\"" if aktiv == z else ""}>{n}</a>'
         for z, n in (("", "work"), ("about", "about"))
@@ -154,7 +154,7 @@ def projektseite(i, p):
     else:
         kopfzeile = f"<b>{e(p['ueberschrift'])}</b>"
     def bildpfad(x):
-        return x if x.startswith("http") else ("../" if LOKAL else "/") + "bilder/" + x
+        return x if x.startswith("http") else "../bilder/" + x
     stills = "".join(
         f'<img src="{e(bildpfad(x))}" alt="" loading="lazy"{" class=\"breit\"" if x in p.get("breit", []) else ""}>'
         for x in p.get("stills", []))
