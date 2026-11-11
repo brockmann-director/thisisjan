@@ -40,7 +40,8 @@ def bild(p, tiefe):
         datei = HIER / "bilder" / f"{p['slug']}.{endung}"
         if datei.exists():
             return "../" * tiefe + f"bilder/{datei.name}"
-    return p["bild"]
+    x = p["bild"]
+    return x if x.startswith("http") else "../" * tiefe + "bilder/" + x
 
 
 def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
@@ -49,6 +50,8 @@ def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
         f'<a href="{link(z, tiefe)}"{" aria-current=\"page\"" if aktiv == z else ""}><span class="eng">{n}</span></a>'
         for z, n in (("", "work"), ("about", "about"))
     )
+    if og_bild and not og_bild.startswith("http"):
+        og_bild = seite["domain"].rstrip("/") + "/bilder/" + og_bild
     og = f'<meta property="og:image" content="{e(og_bild)}">' if og_bild else ""
     return f"""<!doctype html>
 <html lang="en">
