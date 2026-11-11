@@ -57,7 +57,7 @@ def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
 <meta name="description" content="{e(beschreibung or seite['beschreibung'])}">
 <meta property="og:title" content="{e(titel)}">
 {og}
-<link rel="preload" href="{css.replace('stil.css', 'schrift/big-shoulders-display.woff2')}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{css.replace('stil.css', 'schrift/bagel-fat-one.woff2')}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{css}">
 </head>
 <body>

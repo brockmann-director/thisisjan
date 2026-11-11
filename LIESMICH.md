@@ -14,4 +14,4 @@ Die Seite baut sich bei jeder Änderung auf `main` automatisch (GitHub Actions) 
 **Lokal ansehen:** `python3 bauen.py --lokal`, dann `public/index.html` öffnen.
 
 Videos laden erst nach Klick (youtube-nocookie), deshalb gibt es keine Cookies und keinen Cookie-Banner.
-Schrift: Big Shoulders Display (SIL Open Font License, liegt in `schrift/`).
+Schriften: Bagel Fat One (Logo, Titel) und Rubik (Text), beide SIL Open Font License, liegen in `schrift/`.

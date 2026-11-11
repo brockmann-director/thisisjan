@@ -1,10 +1,14 @@
 /* thisisjan.com – schwarz, neongrün, schmale fette Schrift.
    Farben und Schrift nur hier ändern. */
 @font-face {
-  font-family: "Big Shoulders Display";
-  src: url("schrift/big-shoulders-display.woff2") format("woff2");
-  font-weight: 400 900;
-  font-display: swap;
+  font-family: "Bagel Fat One";
+  src: url("schrift/bagel-fat-one.woff2") format("woff2");
+  font-weight: 400; font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("schrift/rubik.woff2") format("woff2");
+  font-weight: 400 700; font-display: swap;
 }
 :root {
   --nacht: #000000;
@@ -12,7 +16,8 @@
   --gruen: #79fb71;
   --lila: #c21ff0;
   --grau: #9a9a9a;
-  --schrift: "Big Shoulders Display", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --schrift: "Bagel Fat One", "Arial Rounded MT Bold", "Helvetica Neue", sans-serif; /* Logo, Menü, Titel */
+  --text: "Rubik", "Helvetica Neue", Arial, sans-serif; /* Fließtext */
   --rand: clamp(16px, 4.5vw, 48px);
   --abstand: clamp(12px, 1.6vw, 24px);
   --rundung: clamp(10px, 1.4vw, 18px);
@@ -25,17 +30,21 @@ body {
   margin: 0;
   background: var(--nacht);
   color: var(--weiss);
-  font-family: var(--schrift);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.25;
+  font-family: var(--text);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
 }
 ::selection { background: var(--lila); color: var(--weiss); }
 a { color: inherit; text-decoration: none; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--gruen); outline-offset: 3px; }
 img { display: block; max-width: 100%; }
-b, strong { font-weight: 800; }
+b, strong { font-weight: 700; }
+/* Alles in der runden Schrift (hat nur eine Stärke, daher immer 400) */
+.name, .menue, .kachel .titel, .blaettern, .angaben h1 b, .credits b, .zitat, .kontakt, .recht h1, .recht h2, .fuss small, .platz {
+  font-family: var(--schrift); font-weight: 400;
+}
 
 /* Kopf: Menü links, Name rechts (am Handy: Name links, Menü-Knopf rechts) */
 .kopf {
@@ -44,10 +53,10 @@ b, strong { font-weight: 800; }
   padding: 10px var(--rand);
 }
 .name {
-  order: 2; color: var(--gruen); font-weight: 900; text-transform: uppercase;
-  font-size: clamp(34px, 3.6vw, 56px); line-height: .9; letter-spacing: -.01em;
+  order: 2; color: var(--gruen); text-transform: uppercase;
+  font-size: clamp(26px, 2.6vw, 40px); line-height: 1; letter-spacing: 0;
 }
-.menue { order: 1; display: flex; gap: 22px; font-weight: 900; font-size: 26px; }
+.menue { order: 1; display: flex; gap: 24px; font-size: 22px; }
 .menue a { transition: color .15s; }
 .menue a:hover, .menue a[aria-current="page"] { color: var(--gruen); }
 .menueknopf { display: none; }
@@ -85,7 +94,7 @@ main { padding: 0 var(--rand); }
 .kachel img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s ease, filter .3s; }
 .kachel .titel {
   position: absolute; inset: 0; display: grid; place-items: center; padding: 16px; text-align: center;
-  color: var(--gruen); font-weight: 900; font-size: clamp(28px, 2.6vw, 44px); line-height: .95;
+  color: var(--gruen); font-size: clamp(24px, 2vw, 34px); line-height: 1.05;
   opacity: 0; transition: opacity .25s; text-shadow: 0 2px 18px rgba(0,0,0,.35);
 }
 .kachel a:hover img, .kachel.mitte img { transform: scale(1.03); filter: brightness(.85); }
@@ -106,12 +115,12 @@ main { padding: 0 var(--rand); }
 .video .hinweis { position: absolute; left: 14px; bottom: 10px; font-size: 14px; opacity: .8; text-shadow: 0 1px 3px rgba(0,0,0,.7); }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
-.angaben { text-align: center; margin: calc(var(--abstand) * 2.5) auto; max-width: 900px; font-size: clamp(20px, 1.7vw, 26px); }
+.angaben { text-align: center; margin: calc(var(--abstand) * 2.5) auto; max-width: 900px; font-size: clamp(17px, 1.4vw, 21px); }
 .angaben h1 { font-size: inherit; font-weight: 400; margin: 0 0 .6em; }
-.angaben h1 b { font-weight: 900; }
+.angaben h1 { font-size: 1.15em; }
 .credits { list-style: none; margin: 0; padding: 0; display: grid; gap: .25em; }
-.credits b { font-weight: 900; }
-.zitat { color: var(--gruen); font-weight: 900; margin: .7em 0 0; }
+
+.zitat { color: var(--gruen); margin: .9em 0 0; font-size: 1.15em; }
 
 .stills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 1060px; margin: 0 auto calc(var(--abstand) * 3); }
 .stills img { width: 100%; aspect-ratio: 2.39 / 1; object-fit: cover; }
@@ -120,7 +129,7 @@ main { padding: 0 var(--rand); }
 
 .platz {
   display: grid; place-items: center; aspect-ratio: 2.39 / 1; background: #151515; color: #444;
-  font-weight: 800; font-size: 18px; outline: 1px solid var(--nacht); text-transform: uppercase; letter-spacing: .08em;
+  font-size: 16px; outline: 1px solid var(--nacht); text-transform: uppercase; letter-spacing: .08em;
 }
 .stills .platz.breit { grid-column: 1 / -1; aspect-ratio: 16 / 9; margin-block: calc(var(--abstand) * 3); }
 .making .platz { aspect-ratio: auto; height: clamp(150px, 20vw, 280px); flex-grow: 1; max-width: 100%; }
@@ -132,17 +141,17 @@ main { padding: 0 var(--rand); }
 
 .blaettern {
   display: flex; justify-content: space-between; gap: 16px; margin-top: calc(var(--rand) * 1.5);
-  font-weight: 900; font-size: 22px;
+  font-size: 20px;
 }
 .blaettern a:hover { color: var(--gruen); }
 
 /* Textseiten */
 .text { max-width: 900px; margin: clamp(40px, 14vh, 200px) auto 0; text-align: center; }
-.text .gross p { font-size: clamp(22px, 1.9vw, 28px); line-height: 1.2; margin: 0 0 .8em; }
-.text .kontakt { color: var(--gruen); font-weight: 900; font-size: 24px; margin-top: 2.5em; }
-.recht { max-width: 720px; margin: 40px auto 0; font-size: 18px; }
-.recht h1 { font-size: 36px; font-weight: 900; margin: 0 0 .6em; }
-.recht h2 { font-size: 22px; font-weight: 900; margin: 1.6em 0 .3em; color: var(--gruen); }
+.text .gross p { font-size: clamp(19px, 1.6vw, 23px); line-height: 1.4; margin: 0 0 .8em; }
+.text .kontakt { color: var(--gruen); font-size: 22px; margin-top: 2.5em; line-height: 1.3; }
+.recht { max-width: 720px; margin: 40px auto 0; font-size: 16px; }
+.recht h1 { font-size: 34px; margin: 0 0 .6em; }
+.recht h2 { font-size: 20px; margin: 1.6em 0 .3em; color: var(--gruen); }
 .recht p { margin: 0 0 .8em; line-height: 1.35; }
 .recht a { text-decoration: underline; }
 
@@ -151,7 +160,7 @@ main { padding: 0 var(--rand); }
 .symbole { display: flex; gap: 26px; }
 .symbole svg { width: 26px; height: 26px; fill: var(--weiss); transition: fill .15s; }
 .symbole a:hover svg { fill: var(--gruen); }
-.fuss small { color: var(--gruen); font-weight: 800; font-size: 16px; }
+.fuss small { color: var(--gruen); font-size: 15px; }
 .fuss small a:hover { text-decoration: underline; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

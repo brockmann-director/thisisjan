@@ -4,219 +4,743 @@
     "titel": "the coach",
     "kunde": "FC BAYERN",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/0f875f27-c02b-4320-a04e-3540c68b6c84_rwc_43x0x2402x1922x2402.png?h=1af2375deb703b85a4a7bd7b17978bb0",
-    "videos": ["XErSknPZco0"],
+    "videos": [
+      "XErSknPZco0"
+    ],
     "ueberschrift": "SAP X FC Bayern - the coach",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Marco Lowes", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "1 Coach, 3 HERO, a day full of madness"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Marco Lowes",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "1 Coach, 3 HERO, a day full of madness",
+    "stills": [
+      "kopie-von-directed-by-muller/still-01.jpg",
+      "kopie-von-directed-by-muller/still-02.jpg",
+      "kopie-von-directed-by-muller/still-03.jpg"
+    ],
+    "breit": [
+      "kopie-von-directed-by-muller/still-03.jpg"
+    ]
   },
   {
     "slug": "directed-by-muller",
     "titel": "directed by",
     "kunde": "MÜLLER",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/02c4a4c3-5502-402c-b611-528e101c03dc_car_5x4.jpg?h=04348fee70b4d0fc7ccb7b9a3afa2d80",
-    "videos": ["38UhmLhJAgM"],
+    "videos": [
+      "38UhmLhJAgM"
+    ],
     "ueberschrift": "VIESSMANN - Directed by Müller",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Marco Lowes", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "1 STUDO, 1 HERO, 5 HOURS"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Marco Lowes",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "1 STUDO, 1 HERO, 5 HOURS",
+    "stills": [
+      "directed-by-muller/still-01.jpg",
+      "directed-by-muller/still-02.jpg",
+      "directed-by-muller/still-03.jpg",
+      "directed-by-muller/still-04.jpg",
+      "directed-by-muller/still-06.jpg",
+      "directed-by-muller/still-07.jpg",
+      "directed-by-muller/still-05.jpg"
+    ],
+    "breit": [
+      "directed-by-muller/still-05.jpg"
+    ],
+    "making": [
+      "directed-by-muller/making-01.jpg",
+      "directed-by-muller/making-02.jpg",
+      "directed-by-muller/making-03.jpg",
+      "directed-by-muller/making-04.jpg",
+      "directed-by-muller/making-05.jpg",
+      "directed-by-muller/making-06.jpg",
+      "directed-by-muller/making-07.jpg",
+      "directed-by-muller/making-08.jpg",
+      "directed-by-muller/making-09.jpg",
+      "directed-by-muller/making-10.jpg",
+      "directed-by-muller/making-11.jpg",
+      "directed-by-muller/making-12.jpg",
+      "directed-by-muller/making-13.jpg",
+      "directed-by-muller/making-14.jpg"
+    ]
   },
   {
     "slug": "bmw-art-car",
     "titel": "art car",
     "kunde": "BMW",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/cd949cb9-7632-48d0-88b6-3ac5368bee76_rwc_65x0x2405x1924x2405.png?h=3721fc76aa7531db5dd4a0cfe8c9a6fb",
-    "videos": ["ovnhkf8QVBg"],
+    "videos": [
+      "ovnhkf8QVBg"
+    ],
     "ueberschrift": "BMW - 20TH ART CAR",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Tim Höddinghaus", "Artist: Julie Mehretu", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "Footage collected over the course of a year while creating the 20th BMW ART CAR"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Tim Höddinghaus",
+      "Artist: Julie Mehretu",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "Footage collected over the course of a year while creating the 20th BMW ART CAR",
+    "stills": [
+      "bmw-art-car/still-01.jpg",
+      "bmw-art-car/still-02.jpg",
+      "bmw-art-car/still-03.jpg",
+      "bmw-art-car/still-04.jpg",
+      "bmw-art-car/still-05.jpg",
+      "bmw-art-car/still-06.jpg",
+      "bmw-art-car/still-08.jpg",
+      "bmw-art-car/still-09.jpg",
+      "bmw-art-car/still-10.jpg",
+      "bmw-art-car/still-11.jpg",
+      "bmw-art-car/still-07.jpg"
+    ],
+    "breit": [
+      "bmw-art-car/still-07.jpg"
+    ],
+    "making": [
+      "bmw-art-car/making-01.jpg",
+      "bmw-art-car/making-02.jpg",
+      "bmw-art-car/making-03.jpg",
+      "bmw-art-car/making-04.jpg",
+      "bmw-art-car/making-05.jpg",
+      "bmw-art-car/making-06.jpg",
+      "bmw-art-car/making-07.jpg",
+      "bmw-art-car/making-08.jpg",
+      "bmw-art-car/making-09.jpg",
+      "bmw-art-car/making-10.jpg",
+      "bmw-art-car/making-11.jpg",
+      "bmw-art-car/making-12.jpg",
+      "bmw-art-car/making-13.jpg",
+      "bmw-art-car/making-14.jpg"
+    ]
   },
   {
     "slug": "erazer-x-fortnite",
     "titel": "erazer",
     "kunde": "X FORTNITE",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/7019d8bc-3d87-404c-b077-4ef489d779a2_rwc_907x275x2017x1614x2017.jpg?h=76d2dbb9093d6af4114effadde838bc7",
-    "videos": ["k_nFvwzQet4"],
+    "videos": [
+      "k_nFvwzQet4"
+    ],
     "ueberschrift": "ERAZER x FORTNITE - Elevator Pitch",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "Shot on DJI Ronin in one tiny, tiny elevator set with 8 ppl inside"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "Shot on DJI Ronin in one tiny, tiny elevator set with 8 ppl inside",
+    "stills": [
+      "erazer-x-fortnite/still-01.jpg",
+      "erazer-x-fortnite/still-02.jpg",
+      "erazer-x-fortnite/still-03.jpg",
+      "erazer-x-fortnite/still-04.jpg",
+      "erazer-x-fortnite/still-05.jpg",
+      "erazer-x-fortnite/still-06.jpg",
+      "erazer-x-fortnite/still-08.jpg",
+      "erazer-x-fortnite/still-09.jpg",
+      "erazer-x-fortnite/still-10.jpg",
+      "erazer-x-fortnite/still-11.jpg",
+      "erazer-x-fortnite/still-07.jpg"
+    ],
+    "breit": [
+      "erazer-x-fortnite/still-07.jpg"
+    ],
+    "making": [
+      "erazer-x-fortnite/making-01.jpg",
+      "erazer-x-fortnite/making-02.jpg"
+    ]
   },
   {
     "slug": "extreme-tush",
     "titel": "extreme",
     "kunde": "TUSH",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/833aae59-1a1c-4ac0-88f5-46727d0078bb_rwc_464x144x992x794x992.jpg?h=9211ab78fe87707465ad342146ca3627",
-    "videos": ["TOdnVlr1Yo8"],
+    "videos": [
+      "TOdnVlr1Yo8"
+    ],
     "ueberschrift": "TUSH - Extreme",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Creative Direction: Armin Morbach", "MakeUp Artist: Richard Redlefsen", "Production: TUSH MAGAZINE"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Creative Direction: Armin Morbach",
+      "MakeUp Artist: Richard Redlefsen",
+      "Production: TUSH MAGAZINE"
+    ],
+    "text": "",
+    "stills": [
+      "extreme-tush/still-01.jpg"
+    ],
+    "breit": [
+      "extreme-tush/still-01.jpg"
+    ]
   },
   {
     "slug": "chanel-tush",
     "titel": "chanel",
     "kunde": "TUSH",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/40bd000c-cf70-486e-8631-f26329944b08_rwc_315x29x1284x1027x1284.jpg?h=e82c27de23b2517013260a9ad8d73edb",
-    "videos": ["-VyW6i9KyWM"],
+    "videos": [
+      "-VyW6i9KyWM"
+    ],
     "ueberschrift": "CHANEL X TUSH - Jelle Haen",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: TUSH MAGAZINE"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: TUSH MAGAZINE"
+    ],
+    "text": "",
+    "stills": [
+      "chanel-tush/still-01.jpg",
+      "chanel-tush/still-02.jpg",
+      "chanel-tush/still-03.jpg",
+      "chanel-tush/still-04.jpg",
+      "chanel-tush/still-05.jpg",
+      "chanel-tush/still-07.jpg",
+      "chanel-tush/still-08.jpg",
+      "chanel-tush/still-09.jpg",
+      "chanel-tush/still-10.jpg",
+      "chanel-tush/still-11.jpg",
+      "chanel-tush/still-06.jpg"
+    ],
+    "breit": [
+      "chanel-tush/still-06.jpg"
+    ]
   },
   {
     "slug": "fc-gundlach-tush",
     "titel": "fc gundlach",
     "kunde": "TUSH",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/261478cc-c592-41c0-82d2-69602be5ca17_rwc_601x0x1470x1176x1470.png?h=ae3316900a2c95d60b8ccf449a2e83da",
-    "videos": ["NJ480X-7Cb4"],
+    "videos": [
+      "NJ480X-7Cb4"
+    ],
     "ueberschrift": "FC GUNDLACH - Pioneer",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: TUSH MAGAZINE"],
-    "text": "The last project of the legendary photographer FC Gundlach"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: TUSH MAGAZINE"
+    ],
+    "text": "The last project of the legendary photographer FC Gundlach",
+    "stills": [
+      "fc-gundlach-tush/still-01.jpg",
+      "fc-gundlach-tush/still-02.jpg",
+      "fc-gundlach-tush/still-03.jpg",
+      "fc-gundlach-tush/still-04.jpg",
+      "fc-gundlach-tush/still-05.jpg",
+      "fc-gundlach-tush/still-06.jpg",
+      "fc-gundlach-tush/still-08.jpg",
+      "fc-gundlach-tush/still-09.jpg",
+      "fc-gundlach-tush/still-10.jpg",
+      "fc-gundlach-tush/still-11.jpg",
+      "fc-gundlach-tush/still-07.jpg"
+    ],
+    "breit": [
+      "fc-gundlach-tush/still-07.jpg"
+    ]
   },
   {
     "slug": "unsere-energie-vattenfall",
     "titel": "our energy",
     "kunde": "VATTENFALL",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/7e5e0813-1f84-4d26-a0b4-b82572f29a1c_rwc_251x0x1350x1080x1350.jpg?h=9dbfcaf1f9bc643be2588f8391bc5fa7",
-    "videos": ["aLkDdgMoG-0"],
+    "videos": [
+      "aLkDdgMoG-0"
+    ],
     "ueberschrift": "VATTENFALL - Unsere Energie Series",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Season 01 - Lukas Willasch / Season 02 - Sin Huh / Season 03 - Tim Höddinghaus", "Host: Daniele Rizzo", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "3 SEASONS, 11 EPISODES, over 2 HOURS of knowledge"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Season 01 - Lukas Willasch / Season 02 - Sin Huh / Season 03 - Tim Höddinghaus",
+      "Host: Daniele Rizzo",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "3 SEASONS, 11 EPISODES, over 2 HOURS of knowledge",
+    "stills": [
+      "unsere-energie-vattenfall/still-02.jpg"
+    ],
+    "breit": [
+      "unsere-energie-vattenfall/still-02.jpg"
+    ],
+    "making": [
+      "unsere-energie-vattenfall/making-01.jpg",
+      "unsere-energie-vattenfall/making-02.jpg",
+      "unsere-energie-vattenfall/making-03.jpg",
+      "unsere-energie-vattenfall/making-04.jpg",
+      "unsere-energie-vattenfall/making-05.jpg",
+      "unsere-energie-vattenfall/making-06.jpg",
+      "unsere-energie-vattenfall/making-07.jpg",
+      "unsere-energie-vattenfall/making-08.jpg",
+      "unsere-energie-vattenfall/making-09.jpg",
+      "unsere-energie-vattenfall/making-10.jpg",
+      "unsere-energie-vattenfall/making-11.jpg",
+      "unsere-energie-vattenfall/making-12.jpg",
+      "unsere-energie-vattenfall/making-13.jpg",
+      "unsere-energie-vattenfall/making-14.jpg"
+    ]
   },
   {
     "slug": "hottes-coup-viessmann",
     "titel": "the coup",
     "kunde": "VIESSMANN",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/3545b60a-59cd-4f16-8a8a-f104b4a84056_rwc_377x74x1169x935x1169.jpg?h=215832be3a24bd34bf7aee09c2406259",
-    "videos": ["LXlQwCIGZC4"],
+    "videos": [
+      "LXlQwCIGZC4"
+    ],
     "ueberschrift": "VIESSMANN - Hottest Coup",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Marco Lowes", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "Mix of real footage and AI"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Marco Lowes",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "Mix of real footage and AI",
+    "stills": [
+      "hottes-coup-viessmann/still-01.jpg",
+      "hottes-coup-viessmann/still-02.jpg",
+      "hottes-coup-viessmann/still-03.jpg",
+      "hottes-coup-viessmann/still-04.jpg",
+      "hottes-coup-viessmann/still-05.jpg",
+      "hottes-coup-viessmann/still-06.jpg",
+      "hottes-coup-viessmann/still-08.jpg",
+      "hottes-coup-viessmann/still-09.jpg",
+      "hottes-coup-viessmann/still-10.jpg",
+      "hottes-coup-viessmann/still-11.jpg",
+      "hottes-coup-viessmann/still-07.jpg"
+    ],
+    "breit": [
+      "hottes-coup-viessmann/still-07.jpg"
+    ]
   },
   {
     "slug": "vario-siedle",
     "titel": "vario",
     "kunde": "SIEDLE",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/ec68e2b6-1aa4-4ccf-bdd5-f63e79a55a42_car_5x4.jpg?h=84e3d7ed8a6c633f5ffbe29611139db5",
-    "videos": ["_g-Gc50ZB4w"],
+    "videos": [
+      "_g-Gc50ZB4w"
+    ],
     "ueberschrift": "SIEDLE - Vario",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Lukas Willasch", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "A square peg fitting through a round hole"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Lukas Willasch",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "A square peg fitting through a round hole",
+    "stills": [
+      "vario-siedle/still-01.jpg",
+      "vario-siedle/still-02.jpg",
+      "vario-siedle/still-03.jpg",
+      "vario-siedle/still-04.jpg",
+      "vario-siedle/still-05.jpg",
+      "vario-siedle/still-06.jpg",
+      "vario-siedle/still-08.jpg",
+      "vario-siedle/still-09.jpg",
+      "vario-siedle/still-10.jpg",
+      "vario-siedle/still-11.jpg",
+      "vario-siedle/still-07.jpg"
+    ],
+    "breit": [
+      "vario-siedle/still-07.jpg"
+    ],
+    "making": [
+      "vario-siedle/making-01.jpg",
+      "vario-siedle/making-02.jpg",
+      "vario-siedle/making-03.jpg",
+      "vario-siedle/making-04.jpg",
+      "vario-siedle/making-05.jpg",
+      "vario-siedle/making-06.jpg",
+      "vario-siedle/making-07.jpg",
+      "vario-siedle/making-08.jpg",
+      "vario-siedle/making-09.jpg",
+      "vario-siedle/making-10.jpg",
+      "vario-siedle/making-11.jpg",
+      "vario-siedle/making-12.jpg",
+      "vario-siedle/making-13.jpg",
+      "vario-siedle/making-14.jpg"
+    ]
   },
   {
     "slug": "die-korrespondenten-zdf",
     "titel": "korrespondenten",
     "kunde": "ZDF",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/835e75dc-b958-45d9-8605-dd548a65ab2f_rwc_566x161x1074x859x1074.jpg?h=532927f2bf70440e780e54df4e0ace30",
-    "videos": ["2LIXdKg23Us", "sy2q0g7jezY", "FONPv0yLdi0"],
+    "videos": [
+      "2LIXdKg23Us",
+      "sy2q0g7jezY",
+      "FONPv0yLdi0"
+    ],
     "ueberschrift": "ZDF - Die Korrespondenten",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Tim Höddinghaus / Lukas Willasch / Luca Hein / Jan Brockmann", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "6 Journalists, 6 Films - Series of films about journalism"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Tim Höddinghaus / Lukas Willasch / Luca Hein / Jan Brockmann",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "6 Journalists, 6 Films - Series of films about journalism",
+    "stills": [
+      "die-korrespondenten-zdf/still-01.jpg",
+      "die-korrespondenten-zdf/still-02.jpg",
+      "die-korrespondenten-zdf/still-03.jpg",
+      "die-korrespondenten-zdf/still-04.jpg",
+      "die-korrespondenten-zdf/still-05.jpg",
+      "die-korrespondenten-zdf/still-06.jpg",
+      "die-korrespondenten-zdf/still-08.jpg",
+      "die-korrespondenten-zdf/still-09.jpg",
+      "die-korrespondenten-zdf/still-10.jpg",
+      "die-korrespondenten-zdf/still-11.jpg",
+      "die-korrespondenten-zdf/still-07.jpg"
+    ],
+    "breit": [
+      "die-korrespondenten-zdf/still-07.jpg"
+    ]
   },
   {
     "slug": "sky-lotto-24",
     "titel": "sky",
     "kunde": "LOTTO 24",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/7d30ebc8-b3db-474c-900a-85766132cb35_rwc_322x87x1074x859x1074.jpg?h=bcf2b80bff7bad643348b8fb31e87a60",
-    "videos": ["usp7PGZKXBQ"],
+    "videos": [
+      "usp7PGZKXBQ"
+    ],
     "ueberschrift": "LOTTO24 - Sky",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Tim Buchheister", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "If you didn't notice: Sky Dumont plays three roles"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Tim Buchheister",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "If you didn't notice: Sky Dumont plays three roles",
+    "stills": [
+      "sky-lotto-24/still-01.jpg",
+      "sky-lotto-24/still-02.jpg",
+      "sky-lotto-24/still-03.jpg",
+      "sky-lotto-24/still-04.jpg",
+      "sky-lotto-24/still-06.jpg",
+      "sky-lotto-24/still-07.jpg",
+      "sky-lotto-24/still-05.jpg"
+    ],
+    "breit": [
+      "sky-lotto-24/still-05.jpg"
+    ],
+    "making": [
+      "sky-lotto-24/making-01.jpg",
+      "sky-lotto-24/making-02.jpg",
+      "sky-lotto-24/making-03.jpg",
+      "sky-lotto-24/making-04.jpg",
+      "sky-lotto-24/making-05.jpg",
+      "sky-lotto-24/making-06.jpg",
+      "sky-lotto-24/making-07.jpg",
+      "sky-lotto-24/making-08.jpg",
+      "sky-lotto-24/making-09.jpg",
+      "sky-lotto-24/making-10.jpg",
+      "sky-lotto-24/making-11.jpg",
+      "sky-lotto-24/making-12.jpg",
+      "sky-lotto-24/making-13.jpg",
+      "sky-lotto-24/making-14.jpg"
+    ]
   },
   {
     "slug": "zughafen-sz",
     "titel": "zughafen",
     "kunde": "SZ",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/0fc6df2d-a4c6-4e6d-8366-63dcbaf74ebc_rwc_0x144x992x794x992.png?h=cd8cf3e7298adff6b59f959c803fbd58",
-    "videos": ["8iq7VBSXfJ8"],
+    "videos": [
+      "8iq7VBSXfJ8"
+    ],
     "ueberschrift": "SÜDDEUTSCHE ZEITUNG - Zughafen",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "Portrait about a refuge for creative people"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "Portrait about a refuge for creative people",
+    "stills": [
+      "zughafen-sz/still-01.jpg",
+      "zughafen-sz/still-02.jpg",
+      "zughafen-sz/still-03.jpg",
+      "zughafen-sz/still-04.jpg",
+      "zughafen-sz/still-05.jpg",
+      "zughafen-sz/still-06.jpg",
+      "zughafen-sz/still-08.jpg",
+      "zughafen-sz/still-09.jpg",
+      "zughafen-sz/still-10.jpg",
+      "zughafen-sz/still-11.jpg",
+      "zughafen-sz/still-07.jpg"
+    ],
+    "breit": [
+      "zughafen-sz/still-07.jpg"
+    ]
   },
   {
     "slug": "deep-beneath-the-skin-tush",
     "titel": "beneath",
     "kunde": "TUSH",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/661df3f5-4fbb-4e96-a1b8-43598acc7eff_rwc_464x144x992x794x992.jpg?h=8282638fa85a58bf8d1666aa908a8793",
-    "videos": ["AFyL7TJ-AFU"],
+    "videos": [
+      "AFyL7TJ-AFU"
+    ],
     "ueberschrift": "TUSH - Deep Beneath the Skin",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Creative Direction: Armin Morbach", "Talent: Miss Fame, Milk the Queen, Jazzelle aka uglyworldwide, Caro Daur, Stefanie Giesinger, Elena Carriere, Lena Gercke uvm.", "Production: TUSH MAGAZINE"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Creative Direction: Armin Morbach",
+      "Talent: Miss Fame, Milk the Queen, Jazzelle aka uglyworldwide, Caro Daur, Stefanie Giesinger, Elena Carriere, Lena Gercke uvm.",
+      "Production: TUSH MAGAZINE"
+    ],
+    "text": "",
+    "stills": [
+      "deep-beneath-the-skin-tush/still-01.jpg",
+      "deep-beneath-the-skin-tush/still-02.jpg",
+      "deep-beneath-the-skin-tush/still-03.jpg",
+      "deep-beneath-the-skin-tush/still-04.jpg",
+      "deep-beneath-the-skin-tush/still-05.jpg",
+      "deep-beneath-the-skin-tush/still-06.jpg",
+      "deep-beneath-the-skin-tush/still-08.jpg",
+      "deep-beneath-the-skin-tush/still-09.jpg",
+      "deep-beneath-the-skin-tush/still-10.jpg",
+      "deep-beneath-the-skin-tush/still-11.jpg",
+      "deep-beneath-the-skin-tush/still-07.jpg"
+    ],
+    "breit": [
+      "deep-beneath-the-skin-tush/still-07.jpg"
+    ]
   },
   {
     "slug": "wiz-kdi-lidl",
     "titel": "the wiz kid",
     "kunde": "LIDL",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/cb800033-f54b-4d32-a09a-809337834b15_rwc_392x0x1005x804x1005.jpg?h=d5e75d21ca99af0bcde53767812a480b",
-    "videos": ["Fk6i4U3p8-w"],
+    "videos": [
+      "Fk6i4U3p8-w"
+    ],
     "ueberschrift": "LIDL - WIZ KID",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "Two kids who want to go to Hogwarts"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "Two kids who want to go to Hogwarts",
+    "stills": [
+      "wiz-kdi-lidl/still-01.jpg",
+      "wiz-kdi-lidl/still-02.jpg",
+      "wiz-kdi-lidl/still-03.jpg",
+      "wiz-kdi-lidl/still-04.jpg",
+      "wiz-kdi-lidl/still-05.jpg",
+      "wiz-kdi-lidl/still-06.jpg",
+      "wiz-kdi-lidl/still-08.jpg",
+      "wiz-kdi-lidl/still-09.jpg",
+      "wiz-kdi-lidl/still-10.jpg",
+      "wiz-kdi-lidl/still-11.jpg",
+      "wiz-kdi-lidl/still-07.jpg"
+    ],
+    "breit": [
+      "wiz-kdi-lidl/still-07.jpg"
+    ]
   },
   {
     "slug": "wir-hier-hier-ndr",
     "titel": "",
     "kunde": "NDR",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/af72dd86-f6bb-425b-b50a-a44b02d114d2_rwc_599x153x3380x2704x3380.jpg?h=a5b6d2a89b012f6f7b72410f027b211b",
-    "videos": ["ArtmUJb97Y4"],
+    "videos": [
+      "ArtmUJb97Y4"
+    ],
     "ueberschrift": "NDR - WIR IHR HIER",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Tim Höddinghaus", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": "20 Journalists, 20 Locations, 11 Shootingdays - 20 films combined into one"
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Tim Höddinghaus",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "20 Journalists, 20 Locations, 11 Shootingdays - 20 films combined into one",
+    "stills": [
+      "wir-hier-hier-ndr/still-01.jpg",
+      "wir-hier-hier-ndr/still-02.jpg",
+      "wir-hier-hier-ndr/still-03.jpg",
+      "wir-hier-hier-ndr/still-04.jpg",
+      "wir-hier-hier-ndr/still-05.jpg",
+      "wir-hier-hier-ndr/still-06.jpg",
+      "wir-hier-hier-ndr/still-08.jpg",
+      "wir-hier-hier-ndr/still-09.jpg",
+      "wir-hier-hier-ndr/still-10.jpg",
+      "wir-hier-hier-ndr/still-11.jpg",
+      "wir-hier-hier-ndr/still-07.jpg"
+    ],
+    "breit": [
+      "wir-hier-hier-ndr/still-07.jpg"
+    ]
   },
   {
     "slug": "hunger-canon",
     "titel": "hunger",
     "kunde": "CANON",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/3cb37bf1-3865-4255-83bc-43c2f0fdfd39_car_5x4.jpg?h=779e17ae65bec9e08a6f1483c6941abb",
-    "videos": ["3iRyLB9VWeg"],
+    "videos": [
+      "3iRyLB9VWeg"
+    ],
     "ueberschrift": "CANON - HUNGER",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Jan Brockmann", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Jan Brockmann",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "",
+    "stills": [
+      "hunger-canon/still-01.jpg",
+      "hunger-canon/still-02.jpg",
+      "hunger-canon/still-03.jpg",
+      "hunger-canon/still-04.jpg",
+      "hunger-canon/still-06.jpg",
+      "hunger-canon/still-07.jpg",
+      "hunger-canon/still-05.jpg"
+    ],
+    "breit": [
+      "hunger-canon/still-05.jpg"
+    ]
   },
   {
     "slug": "the-wrestler-canon",
     "titel": "wrestler",
     "kunde": "CANON",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/fa8cb87d-b7f3-465a-827b-15eaedccbd7d_car_5x4.jpg?h=c78df183230e894e21586009503128c2",
-    "videos": ["XVUSld75TXw"],
+    "videos": [
+      "XVUSld75TXw"
+    ],
     "ueberschrift": "CANON - WRESTLER",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Jan Brockmann", "Production: 27 Kilometer Entertainment GmbH"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Jan Brockmann",
+      "Production: 27 Kilometer Entertainment GmbH"
+    ],
+    "text": "",
+    "stills": [
+      "the-wrestler-canon/still-01.jpg",
+      "the-wrestler-canon/still-02.jpg",
+      "the-wrestler-canon/still-04.jpg",
+      "the-wrestler-canon/still-05.jpg",
+      "the-wrestler-canon/still-03.jpg"
+    ],
+    "breit": [
+      "the-wrestler-canon/still-03.jpg"
+    ]
   },
   {
     "slug": "messiah-netflix",
     "titel": "messiah",
     "kunde": "NETFLIX",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/c24ff0ba-0e79-465f-97bd-11bbfcaab4fa_rwc_345x74x1169x935x1169.jpg?h=8db1d2dc2217447fd2eba4452a9c8d3f",
-    "videos": ["dxVHHKMSuNQ"],
+    "videos": [
+      "dxVHHKMSuNQ"
+    ],
     "ueberschrift": "NETFLIX - Messiah",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: FoxDevil GmbH"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: FoxDevil GmbH"
+    ],
+    "text": "",
+    "stills": [
+      "messiah-netflix/still-01.jpg",
+      "messiah-netflix/still-02.jpg",
+      "messiah-netflix/still-03.jpg",
+      "messiah-netflix/still-04.jpg",
+      "messiah-netflix/still-05.jpg",
+      "messiah-netflix/still-07.jpg",
+      "messiah-netflix/still-08.jpg",
+      "messiah-netflix/still-09.jpg",
+      "messiah-netflix/still-06.jpg"
+    ],
+    "breit": [
+      "messiah-netflix/still-06.jpg"
+    ]
   },
   {
     "slug": "valentino-tush",
     "titel": "valentino",
     "kunde": "TUSH",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/f5e29647-bdf3-42d2-955c-8f0bb05a68d7_car_5x4.jpg?h=2367b3962421c81c3a4a294a759d4a8f",
-    "videos": ["rPjYD8OCl6M"],
+    "videos": [
+      "rPjYD8OCl6M"
+    ],
     "ueberschrift": "VALENTINO X TUSH - Caro Daur",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: TUSH MAGAZINE"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: TUSH MAGAZINE"
+    ],
+    "text": "",
+    "stills": [
+      "valentino-tush/still-01.jpg",
+      "valentino-tush/still-02.jpg",
+      "valentino-tush/still-03.jpg",
+      "valentino-tush/still-04.jpg",
+      "valentino-tush/still-05.jpg",
+      "valentino-tush/still-06.jpg",
+      "valentino-tush/still-08.jpg",
+      "valentino-tush/still-09.jpg",
+      "valentino-tush/still-10.jpg",
+      "valentino-tush/still-11.jpg",
+      "valentino-tush/still-07.jpg"
+    ],
+    "breit": [
+      "valentino-tush/still-07.jpg"
+    ]
   },
   {
     "slug": "strong-schwarzkopf",
     "titel": "strong",
     "kunde": "SCHWARZKOPF",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/d1cfb2b9-4fa0-4a5c-b20c-6156f69b3351_rwc_464x144x992x794x992.png?h=9c427f4f2f9b3defa8d51f1e75cdbaeb",
-    "videos": ["qVCuM2Z8Ucw"],
+    "videos": [
+      "qVCuM2Z8Ucw"
+    ],
     "ueberschrift": "SCHWARZKOPF - Strong",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: How2Do Productions"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: How2Do Productions"
+    ],
+    "text": "",
+    "stills": [
+      "strong-schwarzkopf/still-01.jpg",
+      "strong-schwarzkopf/still-02.jpg",
+      "strong-schwarzkopf/still-03.jpg",
+      "strong-schwarzkopf/still-04.jpg",
+      "strong-schwarzkopf/still-05.jpg",
+      "strong-schwarzkopf/still-07.jpg",
+      "strong-schwarzkopf/still-08.jpg",
+      "strong-schwarzkopf/still-09.jpg",
+      "strong-schwarzkopf/still-10.jpg",
+      "strong-schwarzkopf/still-11.jpg",
+      "strong-schwarzkopf/still-06.jpg"
+    ],
+    "breit": [
+      "strong-schwarzkopf/still-06.jpg"
+    ]
   },
   {
     "slug": "ali-schwarzkopf",
     "titel": "ali",
     "kunde": "SCHWARZKOPF",
     "bild": "https://cdn.myportfolio.com/81e5e543-102f-4626-853c-ee4181cf1ecf/28504431-49bc-4ba3-bfe8-266f8a508b6e_rwc_315x29x1284x1027x1284.jpg?h=86eb3d77a01125aac59640e966754344",
-    "videos": ["YcYVcoG__pQ"],
+    "videos": [
+      "YcYVcoG__pQ"
+    ],
     "ueberschrift": "SCHWARZKOPF - Ali",
-    "credits": ["Director/Autor: Jan Brockmann", "DoP: Sin Huh", "Production: How2Do Productions"],
-    "text": ""
+    "credits": [
+      "Director/Autor: Jan Brockmann",
+      "DoP: Sin Huh",
+      "Production: How2Do Productions"
+    ],
+    "text": "",
+    "stills": [
+      "ali-schwarzkopf/still-01.jpg",
+      "ali-schwarzkopf/still-02.jpg",
+      "ali-schwarzkopf/still-03.jpg",
+      "ali-schwarzkopf/still-04.jpg",
+      "ali-schwarzkopf/still-06.jpg",
+      "ali-schwarzkopf/still-07.jpg",
+      "ali-schwarzkopf/still-05.jpg"
+    ],
+    "breit": [
+      "ali-schwarzkopf/still-05.jpg"
+    ]
   }
 ]
