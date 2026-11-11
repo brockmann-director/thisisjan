@@ -47,7 +47,7 @@ def bild(p, tiefe):
 def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
     css = "../" * tiefe + "stil.css"
     menue = "".join(
-        f'<a href="{link(z, tiefe)}"{" aria-current=\"page\"" if aktiv == z else ""}><span class="eng">{n}</span></a>'
+        f'<a href="{link(z, tiefe)}"{" aria-current=\"page\"" if aktiv == z else ""}>{n}</a>'
         for z, n in (("", "work"), ("about", "about"))
     )
     if og_bild and not og_bild.startswith("http"):
@@ -62,7 +62,7 @@ def rahmen(titel, inhalt, tiefe, aktiv="", beschreibung=None, og_bild=None):
 <meta name="description" content="{e(beschreibung or seite['beschreibung'])}">
 <meta property="og:title" content="{e(titel)}">
 {og}
-<link rel="preload" href="{css.replace('stil.css', 'schrift/bagel-fat-one.woff2')}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{css.replace('stil.css', 'schrift/modak.woff2')}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{css}?v={VERSION}">
 </head>
 <body>
@@ -131,7 +131,7 @@ def startseite(tiefe=0):
     kacheln = "\n".join(
         f"""<li class="kachel"><a href="{link(p['slug'], tiefe)}">
   <img src="{e(bild(p, tiefe))}" alt="{e(p['ueberschrift'])}" loading="{'eager' if i < 4 else 'lazy'}">
-  <span class="titel">{''.join(f'<span class="eng">{e(x)}</span>' for x in (p['titel'], p['kunde']) if x)}</span>
+  <span class="titel"><span class="eng">{'<span class="luecke"></span>'.join(e(x) for x in (p['titel'], p['kunde']) if x)}</span></span>
 </a></li>"""
         for i, p in enumerate(projekte)
     )
