@@ -233,7 +233,7 @@ def datenschutz():
 <h2>Keine Cookies, kein Tracking</h2>
 <p>Diese Seite setzt keine Cookies und verwendet keine Analyse- oder Tracking-Werkzeuge.</p>
 <h2>Hosting</h2>
-<p>Beim Aufruf der Seite verarbeitet der Hosting-Anbieter technisch notwendige Daten (z. B. IP-Adresse, Zeitpunkt, aufgerufene Seite), um die Seite auszuliefern und vor Missbrauch zu schützen (Art. 6 Abs. 1 lit. f DSGVO).</p>
+<p>Diese Seite wird über GitHub Pages bereitgestellt (GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie IP-Adresse, Zeitpunkt und aufgerufene Seite, um die Seite auszuliefern und vor Missbrauch zu schützen (Art. 6 Abs. 1 lit. f DSGVO). Dabei können Daten in die USA übertragen werden. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert. Mehr dazu: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
 <h2>YouTube-Videos</h2>
 <p>Die Filme sind bei YouTube (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) gespeichert. Ein Video wird erst geladen, wenn du auf „Abspielen“ klickst. Erst dann werden Daten wie deine IP-Adresse an YouTube übertragen. Wir nutzen dafür den erweiterten Datenschutzmodus (youtube-nocookie.com). Mehr dazu in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
 <h2>Deine Rechte</h2>
